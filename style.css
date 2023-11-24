@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.heder-main{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgb(36, 97, 133));
+}
+
+.navbar{
+    width: auto;
+    height: auto;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px;
+    
+}
+.button-1{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgb(36, 97, 133));
+
+
+}
+
+
+.backgroun-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.section-part-1{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgb(36, 97, 133));
+
+}
+li{
+    list-style: none;
+}
+.main-section-1:hover{
+   /* text-decoration: underline; */
+   border-bottom: 2px solid aqua;
+    
+}
+
+
+.section-part .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+    
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.custom-shape-divider-bottom-1696952685 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+   
+
+
+.custom-shape-divider-bottom-1696952685 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 178px;
+}
+@media (600px <= width <= 768px) {
+    ..image-section{
+        height: 25%;
+        width: 25%;
+    }
+    
+}
+.border-section:hover{
+    border-color: aqua;
+}
+.border-section-1:hover{
+    border-color: black;
+}
+
+.custom-shape-divider-bottom-1696952685 .shape-fill {
+    fill: #FFFFFF;
+}
+.card-box:hover{
+    box-shadow: rgba(149, 157,165, 0.2) 0 8px 24px;
+}
+.section-part-2{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgb(36, 97, 133));
+
+}
+
+/* .bottom-part-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.bottom-part-1 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 130px;
+}
+
+.bottom-part-1 .shape-fill {
+    fill: #FFFFFF;
+} */
+
+.button-b:hover{
+    border-color: rgb(238, 53, 195);
+}
+
+
